@@ -1,9 +1,31 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29020.237
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SteffBeckers.Domain", "src\SteffBeckers.Domain\SteffBeckers.Domain.csproj", "{554AD327-6DBA-4F8F-96F8-81CE7A0C863F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.Demo", "modules\Volo.BasicTheme\test\Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.Demo\Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.Demo.csproj", "{e7a9cd7d-c12b-4460-882f-a7eaa1242f28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.Demo.Tests", "modules\Volo.BasicTheme\test\Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.Demo.Tests\Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.Demo.Tests.csproj", "{1eb8a933-b6a6-4e5f-bfa5-7eb5ff24e8b4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.Demo", "modules\Volo.BasicTheme\test\Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.Demo\Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.Demo.csproj", "{4f4a1f8e-351b-498a-ade1-442d373477c9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.BasicTheme.Installer", "modules\Volo.BasicTheme\src\Volo.Abp.BasicTheme.Installer\Volo.Abp.BasicTheme.Installer.csproj", "{6d9efb46-6337-402e-9e19-121228cdc473}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic", "modules\Volo.BasicTheme\src\Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic\Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.csproj", "{a8606ffd-6234-4af5-b4df-234fde4e9a40}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.AspNetCore.Components.WebAssembly.BasicTheme", "modules\Volo.BasicTheme\src\Volo.Abp.AspNetCore.Components.WebAssembly.BasicTheme\Volo.Abp.AspNetCore.Components.WebAssembly.BasicTheme.csproj", "{38bbd7bd-6e5f-4d90-a0f7-c17d2c40885f}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.AspNetCore.Components.Web.BasicTheme", "modules\Volo.BasicTheme\src\Volo.Abp.AspNetCore.Components.Web.BasicTheme\Volo.Abp.AspNetCore.Components.Web.BasicTheme.csproj", "{e2d87799-6594-4b49-b83a-74b88401e009}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.AspNetCore.Components.Server.BasicTheme", "modules\Volo.BasicTheme\src\Volo.Abp.AspNetCore.Components.Server.BasicTheme\Volo.Abp.AspNetCore.Components.Server.BasicTheme.csproj", "{8c56bd9a-53f1-43cc-abb1-66bb4bd12adf}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Volo.BasicTheme.Tests", "Volo.BasicTheme.Tests", "{f089db1d-bbe4-4a1f-b156-24f92df557e8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Volo.BasicTheme", "Volo.BasicTheme", "{ea5425cc-3cb0-4fa0-a94c-03806dca5633}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "modules", "modules", "{38ebd77e-b915-4654-8cdc-7bcfafc5e1dd}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SteffBeckers.Application", "src\SteffBeckers.Application\SteffBeckers.Application.csproj", "{1A94A50E-06DC-43C1-80B5-B662820EC3EB}"
 EndProject
@@ -41,6 +63,38 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{e7a9cd7d-c12b-4460-882f-a7eaa1242f28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{e7a9cd7d-c12b-4460-882f-a7eaa1242f28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{e7a9cd7d-c12b-4460-882f-a7eaa1242f28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{e7a9cd7d-c12b-4460-882f-a7eaa1242f28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1eb8a933-b6a6-4e5f-bfa5-7eb5ff24e8b4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1eb8a933-b6a6-4e5f-bfa5-7eb5ff24e8b4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1eb8a933-b6a6-4e5f-bfa5-7eb5ff24e8b4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1eb8a933-b6a6-4e5f-bfa5-7eb5ff24e8b4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4f4a1f8e-351b-498a-ade1-442d373477c9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4f4a1f8e-351b-498a-ade1-442d373477c9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4f4a1f8e-351b-498a-ade1-442d373477c9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4f4a1f8e-351b-498a-ade1-442d373477c9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6d9efb46-6337-402e-9e19-121228cdc473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6d9efb46-6337-402e-9e19-121228cdc473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6d9efb46-6337-402e-9e19-121228cdc473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6d9efb46-6337-402e-9e19-121228cdc473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{a8606ffd-6234-4af5-b4df-234fde4e9a40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{a8606ffd-6234-4af5-b4df-234fde4e9a40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{a8606ffd-6234-4af5-b4df-234fde4e9a40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{a8606ffd-6234-4af5-b4df-234fde4e9a40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38bbd7bd-6e5f-4d90-a0f7-c17d2c40885f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38bbd7bd-6e5f-4d90-a0f7-c17d2c40885f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38bbd7bd-6e5f-4d90-a0f7-c17d2c40885f}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38bbd7bd-6e5f-4d90-a0f7-c17d2c40885f}.Release|Any CPU.Build.0 = Release|Any CPU
+		{e2d87799-6594-4b49-b83a-74b88401e009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{e2d87799-6594-4b49-b83a-74b88401e009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{e2d87799-6594-4b49-b83a-74b88401e009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{e2d87799-6594-4b49-b83a-74b88401e009}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8c56bd9a-53f1-43cc-abb1-66bb4bd12adf}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8c56bd9a-53f1-43cc-abb1-66bb4bd12adf}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8c56bd9a-53f1-43cc-abb1-66bb4bd12adf}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8c56bd9a-53f1-43cc-abb1-66bb4bd12adf}.Release|Any CPU.Build.0 = Release|Any CPU
 		{554AD327-6DBA-4F8F-96F8-81CE7A0C863F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{554AD327-6DBA-4F8F-96F8-81CE7A0C863F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{554AD327-6DBA-4F8F-96F8-81CE7A0C863F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -102,6 +156,16 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{e7a9cd7d-c12b-4460-882f-a7eaa1242f28} = {f089db1d-bbe4-4a1f-b156-24f92df557e8}
+		{1eb8a933-b6a6-4e5f-bfa5-7eb5ff24e8b4} = {f089db1d-bbe4-4a1f-b156-24f92df557e8}
+		{4f4a1f8e-351b-498a-ade1-442d373477c9} = {f089db1d-bbe4-4a1f-b156-24f92df557e8}
+		{6d9efb46-6337-402e-9e19-121228cdc473} = {ea5425cc-3cb0-4fa0-a94c-03806dca5633}
+		{a8606ffd-6234-4af5-b4df-234fde4e9a40} = {ea5425cc-3cb0-4fa0-a94c-03806dca5633}
+		{38bbd7bd-6e5f-4d90-a0f7-c17d2c40885f} = {ea5425cc-3cb0-4fa0-a94c-03806dca5633}
+		{e2d87799-6594-4b49-b83a-74b88401e009} = {ea5425cc-3cb0-4fa0-a94c-03806dca5633}
+		{8c56bd9a-53f1-43cc-abb1-66bb4bd12adf} = {ea5425cc-3cb0-4fa0-a94c-03806dca5633}
+		{f089db1d-bbe4-4a1f-b156-24f92df557e8} = {04DBDB01-70F4-4E06-B468-8F87850B22BE}
+		{ea5425cc-3cb0-4fa0-a94c-03806dca5633} = {38ebd77e-b915-4654-8cdc-7bcfafc5e1dd}
 		{554AD327-6DBA-4F8F-96F8-81CE7A0C863F} = {CA9AC87F-097E-4F15-8393-4BC07735A5B0}
 		{1A94A50E-06DC-43C1-80B5-B662820EC3EB} = {CA9AC87F-097E-4F15-8393-4BC07735A5B0}
 		{C956DD76-69C8-4A9C-83EA-D17DF83340FD} = {CA9AC87F-097E-4F15-8393-4BC07735A5B0}
